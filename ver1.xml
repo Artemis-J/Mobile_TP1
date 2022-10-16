@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/tv_1"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/et_nom"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="@string/et_nom"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border1"
+        />
+
+    <EditText
+        android:id="@+id/et_prenom"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="@string/et_prenom"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border1"
+        />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="@string/et_age"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border1"
+        />
+
+    <EditText
+        android:id="@+id/et_competence"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="@string/et_competence"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border1"
+        />
+
+    <EditText
+        android:id="@+id/et_numero"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="@string/et_numero"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border1"
+        />
+
+
+    <Button
+        android:id="@+id/btn_valider"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_valider"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+</LinearLayout>
